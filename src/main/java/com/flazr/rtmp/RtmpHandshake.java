@@ -123,6 +123,7 @@ public class RtmpHandshake {
         map.put(0x0a000c02, 1);
         map.put(0x80000102, 1);
         map.put(0x80000302, 2);
+        map.put(0x80000702, 2);
         map.put(0x0a002002, 2);
         clientVersionToValidationTypeMap = map;
     }
